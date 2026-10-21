@@ -1,0 +1,19 @@
+[project]
+name = "darkroom-timer"
+version = "0.1.0"
+description = "Terminal darkroom timer for B&W film development"
+requires-python = ">=3.10"
+dependencies = ["textual>=0.80"]
+
+[project.scripts]
+darkroom-timer = "darkroom_timer.app:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["darkroom_timer"]
+
+[tool.setuptools.package-data]
+darkroom_timer = ["presets.json", "app.tcss"]

@@ -1,0 +1,186 @@
+/* ---------- setup ---------- */
+
+#setup {
+    padding: 0 1;
+}
+
+.fields {
+    height: auto;
+}
+
+.field {
+    width: 1fr;
+    height: auto;
+    margin-right: 1;
+}
+
+.field.wide {
+    width: 2fr;
+}
+
+.section {
+    margin-top: 1;
+}
+
+#steps {
+    grid-size: 4;
+    grid-columns: 12 14 10 1fr;
+    grid-rows: 3;
+    grid-gutter: 0 1;
+    height: auto;
+}
+
+.step-label, .time-hint {
+    height: 3;
+    content-align: left middle;
+}
+
+#custom-row {
+    height: 3;
+    margin-top: 1;
+}
+
+#custom-row Label {
+    height: 3;
+    content-align: left middle;
+    margin-right: 1;
+}
+
+#custom-row .step-label {
+    width: auto;
+}
+
+Input.small {
+    width: 8;
+}
+
+#total {
+    margin: 1 0;
+    text-style: bold;
+}
+
+.buttons {
+    height: auto;
+}
+
+.buttons Button {
+    margin-right: 1;
+}
+
+.hint {
+    color: $text-muted;
+    padding: 0 1;
+}
+
+/* ---------- timer ---------- */
+
+#film-line {
+    padding: 0 2;
+    color: $text-muted;
+}
+
+#timer-main {
+    height: 1fr;
+}
+
+#clocks {
+    width: 1fr;
+    padding: 0 2;
+    align-horizontal: center;
+}
+
+#step-name {
+    width: 100%;
+    content-align: center middle;
+    text-style: bold;
+    color: $accent;
+}
+
+#step-digits {
+    width: 100%;
+    height: 1fr;
+    color: $accent;
+}
+
+#step-progress {
+    width: 100%;
+    margin: 1 0;
+}
+
+#step-progress Bar {
+    width: 1fr;
+}
+
+#agitation {
+    width: 100%;
+    height: 3;
+    content-align: center middle;
+    border: round $secondary;
+}
+
+#agitation.agitate {
+    background: $primary;
+    color: $background;
+    text-style: bold;
+    border: heavy $accent;
+}
+
+.caption {
+    width: 100%;
+    content-align: center middle;
+    margin-top: 1;
+    color: $text-muted;
+}
+
+#total-digits {
+    width: 100%;
+    height: 1fr;
+    color: $foreground;
+}
+
+#status {
+    width: 100%;
+    margin-top: 1;
+    content-align: center middle;
+}
+
+#step-list {
+    width: 28;
+    padding: 1 2;
+    border-left: vkey $secondary;
+}
+
+/* ---------- dialogs ---------- */
+
+ModalScreen {
+    align: center middle;
+}
+
+.dialog {
+    width: 60;
+    height: auto;
+    max-height: 90%;
+    padding: 1 2;
+    border: thick $primary;
+    background: $surface;
+}
+
+.dialog.wide {
+    width: 90%;
+}
+
+.dialog .buttons {
+    margin-top: 1;
+}
+
+#preset-table {
+    height: 20;
+}
+
+#notes {
+    height: 8;
+}
+
+#log-table {
+    height: 1fr;
+}

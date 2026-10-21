@@ -1,0 +1,35 @@
+{
+  "_comment": "Starting-point developer times at 20C, small tank, intermittent agitation. Always verify against the current manufacturer datasheet. Add your own via the app (saved to ~/.local/share/darkroom-timer/presets.json).",
+  "presets": [
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Ilford ID-11", "dilution": "stock", "dev": "7:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Ilford ID-11", "dilution": "1+1", "dev": "13:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Ilford ID-11", "dilution": "1+3", "dev": "20:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Kodak D-76", "dilution": "stock", "dev": "7:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Kodak D-76", "dilution": "1+1", "dev": "13:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Ilford DD-X", "dilution": "1+4", "dev": "9:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Ilford Ilfosol 3", "dilution": "1+9", "dev": "6:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Kodak HC-110", "dilution": "B (1+31)", "dev": "5:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Rodinal / Adonal", "dilution": "1+25", "dev": "6:00", "temp": "20", "agitation": "30s first, 10s every minute", "ref": "Massive Dev Chart"},
+    {"film": "Ilford HP5 Plus", "ei": "400", "developer": "Rodinal / Adonal", "dilution": "1+50", "dev": "11:00", "temp": "20", "agitation": "30s first, 10s every minute", "ref": "Massive Dev Chart"},
+
+    {"film": "Ilford FP4 Plus", "ei": "125", "developer": "Ilford ID-11", "dilution": "stock", "dev": "8:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford FP4 Plus", "ei": "125", "developer": "Ilford ID-11", "dilution": "1+1", "dev": "11:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford FP4 Plus", "ei": "125", "developer": "Ilford DD-X", "dilution": "1+4", "dev": "10:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford FP4 Plus", "ei": "125", "developer": "Ilford Ilfosol 3", "dilution": "1+9", "dev": "4:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+
+    {"film": "Ilford Delta 100", "ei": "100", "developer": "Ilford ID-11", "dilution": "stock", "dev": "8:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford Delta 100", "ei": "100", "developer": "Ilford ID-11", "dilution": "1+1", "dev": "11:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford Delta 100", "ei": "100", "developer": "Ilford DD-X", "dilution": "1+4", "dev": "12:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+
+    {"film": "Ilford Delta 400", "ei": "400", "developer": "Ilford ID-11", "dilution": "stock", "dev": "9:30", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford Delta 400", "ei": "400", "developer": "Ilford ID-11", "dilution": "1+1", "dev": "14:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Ilford Delta 400", "ei": "400", "developer": "Ilford DD-X", "dilution": "1+4", "dev": "8:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Kodak D-76", "dilution": "stock", "dev": "6:45", "temp": "20", "agitation": "Kodak: 30s first, 5s every 30s", "ref": "Kodak datasheet"},
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Kodak D-76", "dilution": "1+1", "dev": "9:45", "temp": "20", "agitation": "Kodak: 30s first, 5s every 30s", "ref": "Kodak datasheet"},
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Kodak HC-110", "dilution": "B (1+31)", "dev": "6:00", "temp": "20", "agitation": "Kodak: 30s first, 5s every 30s", "ref": "Kodak datasheet"},
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Kodak XTOL", "dilution": "stock", "dev": "7:00", "temp": "20", "agitation": "Kodak: 30s first, 5s every 30s", "ref": "Kodak datasheet"},
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Ilford DD-X", "dilution": "1+4", "dev": "8:00", "temp": "20", "agitation": "Ilford: 10s first, 10s every minute", "ref": "Ilford datasheet"},
+    {"film": "Kodak Tri-X 400", "ei": "400", "developer": "Rodinal / Adonal", "dilution": "1+50", "dev": "13:00", "temp": "20", "agitation": "30s first, 10s every minute", "ref": "Massive Dev Chart"}
+  ]
+}

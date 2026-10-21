@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Darkroom Timer
+Comment=Timer for black & white film development
+Exec=darkroom-timer
+Terminal=true
+Icon=chronometer
+Categories=Graphics;Photography;Utility;

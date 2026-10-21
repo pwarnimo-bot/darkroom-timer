@@ -1,0 +1,28 @@
+# Maintainer: pwarnimont <pwarnimo@gmail.com>
+pkgname=darkroom-timer
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Terminal darkroom timer for black & white film development"
+arch=('any')
+license=('unknown')
+depends=('python' 'python-textual')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+optdepends=('libpulse: audible beeps via paplay'
+            'pipewire-audio: audible beeps via pw-play'
+            'sound-theme-freedesktop: bell sound file')
+# Local source tarball, created by build-package.sh from the project tree.
+source=("$pkgname-$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+  cd "$pkgname-$pkgver"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+  install -Dm644 packaging/arch/darkroom-timer.desktop \
+    "$pkgdir/usr/share/applications/darkroom-timer.desktop"
+}
