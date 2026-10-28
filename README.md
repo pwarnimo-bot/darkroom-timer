@@ -2,6 +2,14 @@
 
 Terminal (TUI) timer for black & white film development.
 
+![Timer screen during development](docs/screenshots/timer.svg)
+
+| Setup | Presets | Log |
+|-------|---------|-----|
+| ![Setup screen](docs/screenshots/setup.svg) | ![Preset picker](docs/screenshots/presets.svg) | ![Development log](docs/screenshots/log.svg) |
+
+Regenerate with `.venv/bin/python scripts/screenshots.py`.
+
 ## Run
 
 ```sh
